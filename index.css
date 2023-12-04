@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title {
+    text-align: center;
+    color: white;
+    padding: 50px;
+  }
+  section {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("background\ ing\ for\ clock.avif") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a{
+    color: white;
+    text-decoration: none,;
+}
+.container {
+    text-align: center;
+  }
+  .button {
+    font-size: 1.5em;
+    color: white;
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+  }
+  
+  p {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+  }
+  
+  .clock-box {
+    font-size: 3em;
+    color: white;
+    backdrop-filter: blur(5px);
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  #hour-box,
+  #second-box,
+  #minute-box {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .clock-dots {
+    font-size: 3em;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+  }
+  
